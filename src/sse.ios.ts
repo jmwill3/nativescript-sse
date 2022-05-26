@@ -1,6 +1,8 @@
 import { BaseSSE } from './sse.common';
-import { Observable, fromObject } from '@nativescript/core';
+import { Observable, fromObject } from '@nativescript/core/data/observable';
+
 declare const WeakRef, EventSource;
+
 export class SSE extends BaseSSE {
   private _headers: NSDictionary<any, any>;
   private _url: NSURL;

@@ -1,5 +1,5 @@
 import { BaseSSE } from './sse.common';
-import { fromObject, Observable } from '@nativescript/core';
+import { Observable, fromObject } from '@nativescript/core/data/observable';
 
 declare var android: any, com: any, java: any, WeakRef;
 
